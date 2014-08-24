@@ -1,0 +1,87 @@
+.nav-menu{
+  position: absolute;
+  left: 30%;
+  right: 0;
+
+}
+.mn-oc{
+  width: 0;
+  display: none;
+}
+.nav-menu a{
+text-decoration: none;
+font-size: 20px;
+}
+.nav-menu ul{
+ margin: 0;
+ padding: 0;
+}
+.nav-lv1m li{
+  float: left;
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 50px;
+  background: #424242;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition:  all 0.3s ease-in-out;
+  -moz-transition:  all 0.3s ease-in-out;
+  -ms-transition:  all 0.3s ease-in-out;
+  -o-transition:  all 0.3s ease-in-out;
+  transition:  all 0.3s ease-in-out;
+}
+.nav-menu li > a{
+  display: block;
+  color: rgba(180,180,180,1);
+  width: 150px;
+  height: 50px;
+}
+.ul-hide{
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+  -webkit-transition:  all 0.5s ease-in-out;
+  -moz-transition:  all 0.5s ease-in-out;
+  -ms-transition:  all 0.5s ease-in-out;
+  -o-transition:  all 0.5s ease-in-out;
+  transition:  all 0.5s ease-in-out;
+
+}
+.ul-show{
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+}
+.nav-menu li > a:hover{
+  color: black;
+
+}
+/*COLORS MENU*/
+.nav-menu .cl-ini{
+  box-shadow: 0 3px 0 yellow;
+}
+.nav-menu .cl-ini:hover,.cl-ini:focus,.cl-ini:active{
+  background: yellow;
+}
+/*---*/
+.nav-menu .cl-sec{
+  box-shadow: 0 3px 0 green;
+}
+.nav-menu .cl-sec:hover,.cl-sec:focus,.cl-sec:active{
+  background: green;
+}
+/*---*/
+.nav-menu .cl-cont{
+  box-shadow: 0 3px 0 red;
+}
+.nav-menu .cl-cont:hover,.cl-cont:focus,.cl-cont:active{
+  background: red;
+}
+/*---*/
+.nav-menu .cl-help{
+  box-shadow: 0 3px 0 blue;
+}
+.nav-menu .cl-help:hover,.cl-help:focus,.cl-help:active{
+  background: blue;
+}
